@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- template01-->
+    <color name="blueDark">#2a404f</color>
+    <color name="blueLight">#4282c2</color>
+    <color name="wateryGrey">#d9d9d9</color>
+
+    <!-- from old project-->
+    <color name="colorA">#8CBA3E</color>
+    <color name="colorA2">#82B32F</color>
+    <color name="colorB">#F0F3E1</color>
+    <color name="colorC">#D6CABA</color>
+    <color name="colorD">#585753</color>
+    <color name="colorE">#272221</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorC2">#99D5D1CD</color>
+    <color name="textColorHighlight">#4DD81B60</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

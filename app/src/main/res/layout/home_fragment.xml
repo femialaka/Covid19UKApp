@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/home_fragment_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+            android:id="@+id/home_toolbar"
+            app:layout_constraintBottom_toTopOf="@id/graph_container"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                android:gravity="center_horizontal"
+                app:navigationIconTint="@color/cardview_light_background"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:title="@string/covid_title"
+                android:contentDescription="hello"
+                app:titleTextAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                app:titleTextColor="@color/cardview_light_background">
+
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:layout_margin="16dp"
+            android:padding="12dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/covid"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/uk_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="9dp"
+            android:layout_weight="3"
+            android:visibility="visible"
+            android:text="@string/uk"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/england_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="9dp"
+            android:layout_weight="3"
+            android:text="@string/england"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/scotland_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="9dp"
+            android:layout_weight="3"
+            android:text="@string/scotland"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/wales_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="9dp"
+            android:layout_weight="3"
+            android:text="@string/wales"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ni_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="9dp"
+            android:layout_weight="3"
+            android:text="@string/northern_ireland"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/info_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="9dp"
+            android:layout_weight="3"
+            android:text="@string/information"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="9dp"
+            android:layout_weight="3"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</layout>

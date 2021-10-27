@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Covid19UKApp</string>
+    <string name="covid_title">UK Covid-19 Information</string>
+    <string name="scrub_empty">Tap and hold the graph to scrub.</string>
+    <string name="scrub_format_cases">&lt;em>%1$s&lt;/em> &lt;br/> %2$s cases &lt;br/> %3$s</string>
+    <string name="scrub_format_admissions">&lt;em>%1$s&lt;/em> &lt;br/> %2$s admitted to hospital &lt;br/> %3$s</string>
+    <string name="scrub_format_deaths">&lt;em>%1$s&lt;/em> &lt;br/> %2$s deaths &lt;br/> %3$s</string>
+    <string name="randomize">Randomize</string>
+    <string name="select_animation">Animator:</string>
+    <string name="animation_none">None</string>
+    <string name="animation_line">Line</string>
+    <string name="animation_morph">Morph</string>
+    <string name="fill">Fill</string>
+    <string name="uk">UK</string>
+    <string name="england">England</string>
+    <string name="scotland">Scotland</string>
+    <string name="wales">Wales</string>
+    <string name="northern_ireland">Northern Ireland</string>
+    <string name="cases">Cases</string>
+    <string name="admissions">Admissions</string>
+    <string name="deaths">Deaths</string>
+    <string name="information">Information</string>
+    <string name="help">Help</string>
+    <string name="try_again">Try again</string>
+    <string name="please_make_sure_your_wi_fi_is_enabled">Please make sure your Wi-Fi is enabled</string>
+    <string name="info_content_01"> "This is the number of people who have had at least one positive COVID-19 test result either lab-reported or lateral flow device " +
+                    "(England only), by date reported. Positive rapid lateral flow test results can be confirmed with PCR tests taken within 72 hours. " +
+                    "If the PCR test results are negative, these are not reported as cases. People tested positive more than once are only counted once.\n"</string>
+
+    <string name="info_content_02">
+            "Daily numbers of COVID-19 patients admitted to hospital. Data are not updated every day by all four nations and the figures are " +
+                    "not comparable as Wales include suspected COVID-19 patients while the other nations include only confirmed cases.\n"
+        </string>
+
+    <string name="info_content_03">
+            "Number of deaths of people who had had a positive test result for COVID-19 and died within 28 days of the first positive test. " +
+                    "Data from the four nations are not directly comparable as methodologies and inclusion criteria vary.\n"
+        </string>
+
+    <string name="developed_by">"Developed by Femi Alaka @ kiniun Ltd"</string>
+    <string-array name="animations">
+        <item>@string/animation_none</item>
+        <item>@string/animation_line</item>
+        <item>@string/animation_morph</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="place_holder">place_holder</string>
+    <string name="loading">loading ...</string>
+    <string name="about">About</string>
+
+</resources>
+

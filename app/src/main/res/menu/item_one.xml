@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/country_info"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="always"
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/uk_covid_data"
+                android:icon="@drawable/uk_48"
+                android:title="@string/uk" />
+            <item
+                android:id="@+id/england_covid_data"
+                android:icon="@drawable/england_48"
+                android:title="@string/england" />
+            <item
+                android:id="@+id/scotland_covid_data"
+                android:icon="@drawable/scot_48"
+                android:title="@string/scotland" />
+            <item
+                android:id="@+id/wales_covid_data"
+                android:icon="@drawable/wales_48"
+                android:title="@string/wales" />
+            <item
+                android:id="@+id/ni_covid_data"
+                android:title="@string/northern_ireland" />
+        </menu>
+    </item>
+</menu>

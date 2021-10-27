@@ -1,0 +1,138 @@
+{
+  "length": 613,
+  "maxPageLimit": 2500,
+  "totalRecords": 1746,
+  "data": [
+    {
+      "date": "2021-10-04",
+      "newAdmissions": null,
+      "newCases": 35077,
+      "newDeaths": 33
+    },
+    {
+      "date": "2021-10-03",
+      "newAdmissions": null,
+      "newCases": 30439,
+      "newDeaths": 43
+    },
+    {
+      "date": "2021-10-02",
+      "newAdmissions": null,
+      "newCases": 30301,
+      "newDeaths": 121
+    },
+    {
+      "date": "2021-10-01",
+      "newAdmissions": null,
+      "newCases": 35577,
+      "newDeaths": 127
+    },
+    {
+      "date": "2021-09-30",
+      "newAdmissions": null,
+      "newCases": 36480,
+      "newDeaths": 137
+    },
+    {
+      "date": "2021-09-29",
+      "newAdmissions": null,
+      "newCases": 36722,
+      "newDeaths": 150
+    },
+    {
+      "date": "2021-09-28",
+      "newAdmissions": 754,
+      "newCases": 34526,
+      "newDeaths": 167
+    },
+    {
+      "date": "2021-09-27",
+      "newAdmissions": 770,
+      "newCases": 37960,
+      "newDeaths": 40
+    },
+    {
+      "date": "2021-09-26",
+      "newAdmissions": 659,
+      "newCases": 32417,
+      "newDeaths": 58
+    },
+    {
+      "date": "2021-09-25",
+      "newAdmissions": 661,
+      "newCases": 32468,
+      "newDeaths": 127
+    },
+    {
+      "date": "2021-09-24",
+      "newAdmissions": 723,
+      "newCases": 35623,
+      "newDeaths": 180
+    },
+    {
+      "date": "2021-09-23",
+      "newAdmissions": 764,
+      "newCases": 36710,
+      "newDeaths": 182
+    },
+    {
+      "date": "2021-09-22",
+      "newAdmissions": 742,
+      "newCases": 34460,
+      "newDeaths": 166
+    },
+    {
+      "date": "2021-09-21",
+      "newAdmissions": 786,
+      "newCases": 31564,
+      "newDeaths": 203
+    },
+    {
+      "date": "2021-09-20",
+      "newAdmissions": 804,
+      "newCases": 36100,
+      "newDeaths": 49
+    },
+    {
+      "date": "2021-09-19",
+      "newAdmissions": 723,
+      "newCases": 29612,
+      "newDeaths": 56
+    },
+    {
+      "date": "2021-09-18",
+      "newAdmissions": 757,
+      "newCases": 30144,
+      "newDeaths": 164
+    },
+    {
+      "date": "2021-09-17",
+      "newAdmissions": 755,
+      "newCases": 32651,
+      "newDeaths": 178
+    },
+    {
+      "date": "2021-09-16",
+      "newAdmissions": 884,
+      "newCases": 26911,
+      "newDeaths": 158
+    },
+    {
+      "date": "2021-09-15",
+      "newAdmissions": 941,
+      "newCases": 30597,
+      "newDeaths": 201
+    },
+    {
+      "date": "2021-09-14",
+      "newAdmissions": 943,
+      "newCases": 26628,
+      "newDeaths": 185
+    },
+    {
+      "date": "2021-09-13",
+      "newAdmissions": 934,
+      "newCases": 30825,
+      "newDeaths": 61
+    }]
+}
